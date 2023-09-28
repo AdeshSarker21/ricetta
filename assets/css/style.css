@@ -42,7 +42,7 @@ body {
 
 
 /*=========================================*/
-/*==========Start Header Section==========*/
+/*========Start Create Account Sectio=======*/
 /*=========================================*/
 
 .main-create-accoutn-area{}
@@ -262,8 +262,215 @@ width: 100%;
 
 
 
+/* -------------------------------------------------------------- */
+/* ------------------------- PAGE-02 START ---------------------- */
+/* -------------------------------------------------------------- */
+.wapper{
+    background: url(../images/bg-02.png)no-repeat scroll 0 0 / 100% 100%;
+}
+/*=========================================*/
+/*========Start Main Product Sectio=======*/
+/*=========================================*/
+
+.mian-product-section{
+    padding-top: 300px;
+}
+.product-image-area{}
+.product-image-area .product-image{
+    height: auto;
+    width: 90%;
+}
+
+.product-details-area{
+    padding-left: 2%;
+}
+.product-details-area .product-name{
+    color: #000;
+
+/* H1 */
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.product-details-area .produt-price-review{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 48px 0px;
+}
+.product-details-area .produt-price-review .product-price{
+    margin-right: 15px;
+}
+.product-details-area .produt-price-review .product-price .price-text{
+    color: var(--2, #7F78E0);
+
+/* prezzo2 */
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.product-details-area .produt-price-review .product-price .price-text .euro-sign{
+
+}
+.product-details-area .produt-price-review .product-review{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+.product-details-area .produt-price-review .product-review .start{
+    height: 20px;
+    width: 20px;
+    margin-right: 7px;
+}
+.product-details-area .produt-price-review .product-review .review-count{
+    color: #000;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.product-details-area .product-details-text{
+    color: var(--testi-colore, #35293B);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.product-details-area .cart-button-area{
+    text-align: center;
+    padding-top: 72px;
+}
+.product-details-area .add-to-cart{
+    background: none;
+    border: none;
+    color: var(--bianco, #FFF);
+text-align: center;
+
+/* pulsanti */
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 30px;
+background: #7F78E0;
+padding: 10px 30px;
+}
 
 
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .product-details-area .produt-price-review {
+      
+        padding: 15px 0px;
+    }
+    .product-details-area .product-name {
+      
+        font-size: 30px;
+      
+    }
+    .product-details-area .product-details-text {
+       
+        font-size: 20px;
+       
+    }
+    .product-details-area .produt-price-review .product-price .price-text {
+       
+        font-size: 28px;
+       
+    }
+}
+
+@media all and (max-width:991px) {
+    .product-details-area .produt-price-review {
+      
+        padding: 7px 0px;
+    }
+    .product-details-area .product-name {
+      
+        font-size: 25px;
+      
+    }
+    .product-details-area .product-details-text {
+       
+        font-size: 16px;
+        text-align: justify;
+       
+    }
+    .product-details-area .produt-price-review .product-price .price-text {
+       
+        font-size: 23px;
+       
+    }
+    .product-image-area .product-image {
+        height: auto;
+        width: 98%;
+    }
+    .product-details-area .cart-button-area {
+        text-align: center;
+        padding-top: 25px;
+    }
+
+}
+
+
+@media all and (max-width:767px) {
+
+    .product-details-area {
+        padding-left: 2%;
+        padding: 30px 0px;
+    }
+
+}
+
+
+@media all and (max-width:576px) {
+
+    .product-details-area {
+
+        padding: 30px 2%;
+    }
+}
+
+
+
+/*=========================================*/
+/*========Start Main Collapse Sectio=======*/
+/*=========================================*/
+
+.main-collapse-section{}
+
+.collapse-button-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 110px 0px;
+    flex-wrap: wrap;
+}
+.collapse-button-item{}
+.collapse-button-item .collapse-button{
+    border: none;
+    background: none;
+    color: #000;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 30px;
+border: 1px solid var(--2, #7F78E0);
+background: rgba(255, 255, 255, 0.00);
+padding: 5px 10px;
+width: 133px;
+margin: 10px 10px;
+}
 
 
 
