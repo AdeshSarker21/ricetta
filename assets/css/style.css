@@ -73,20 +73,19 @@ line-height: normal;
 margin-bottom: 30px;
 display: block;
 }
-.form-area .mian-form .form-group .input-box{
-    color: #000;
-
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
-background: none;
-border-radius: 20px;
-border: 1px solid #7F78E0;
-padding: 15px 42px;
+.form-area .mian-form .form-group .input-box {
+	color: #000;
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	background: none;
+	border-radius: 20px;
+	border: 1px solid #7F78E0;
+	padding: 15px 42px;
+	width: 100%;
 }
-
 
 
 
@@ -102,6 +101,7 @@ padding: 15px 42px;
 .form-area .mian-form  .flex-box .agree .check-box{
     height: 24px; 
     width: 24px;
+    margin-right: 24px;
 }
 .form-area .mian-form  .flex-box .agree .label-text{
     color: #000;
@@ -109,9 +109,157 @@ font-family: Poppins;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 10px; /* 62.5% */
+line-height: 21px; /* 62.5% */
 margin: 0;;
 }
+
+
+
+.form-area .mian-form .form-group .submit-button{
+    margin: 15px 0px;
+}
+
+
+
+.form-area .mian-form .previous-account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-area .mian-form .previous-account .previous-text{
+    color: #000;
+
+/* testo-base */
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.form-area .mian-form .previous-account .login-here{
+    color: #000;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.bg-area{
+    background: url(../images/bg-01.png)no-repeat scroll 0 0 / 100% 92%;
+}
+.bg-area .bg-imgage{
+    height: 100%;
+    width: 100%;
+}
+
+.bonous-section{
+    padding: 150px 10% 95px;
+}
+.bonous-section .bonous-text{
+    color: #000;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 20px;
+}
+.bonous-section .email-box{
+    color: #000;
+border: none;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+border-radius: 40px;
+background: var(--5, #FFDFEB);
+padding: 10px;
+width: 100%;
+}
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .form-area {
+        padding: 92px 8%;
+    }
+    .bonous-section {
+        padding: 150px 8% 95px;
+    }
+    .bonous-section .bonous-text {
+       
+        font-size: 26px;
+       
+    }
+}
+@media all and (max-width:991px) {
+    .form-area {
+        padding: 50px 6%;
+    }
+
+    .bonous-section .bonous-text {
+       
+        font-size: 21px;
+      
+    }
+    .bonous-section {
+        padding: 20px 6% 40px;
+    }
+    .form-area .mian-form .form-group {
+        margin-bottom: 40px;
+    }
+    .form-area .form-heading-text {
+       
+        font-size: 34px;
+        margin-bottom: 20px;
+      
+    }
+    .bg-area {
+        background: url(../images/bg-01.png)no-repeat scroll 0 0 / 100% 94%;
+    }
+    .form-area .mian-form .form-group .label-text {
+       
+        font-size: 18px;
+       
+        margin-bottom: 8px;
+     
+    }
+}
+
+@media all and (max-width:400px) {
+    .form-area .form-heading-text {
+        font-size: 27px;
+        margin-bottom: 20px;
+    }
+    .form-area .mian-form .form-group .label-text {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+    .form-area .mian-form .flex-box .agree .label-text {
+       
+        font-size: 14px;
+       
+        line-height: 17px;
+       
+    }
+    .form-area .mian-form .previous-account .previous-text {
+      
+        font-size: 16px;
+      
+    }
+    .form-area .mian-form .previous-account .login-here {
+       
+        font-size: 16px;
+      
+    }
+    .bonous-section .bonous-text {
+        font-size: 17px;
+    }
+}
+
+
+
 
 
 
